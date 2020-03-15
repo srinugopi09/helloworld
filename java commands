@@ -1,0 +1,24 @@
+Create Jar file 
+=================
+
+C:java cf myjar.jar HelloWorld.class
+
+Execute class file from  jar
+=============================
+
+C:java -classpath myjar.jar HelloWorld
+O:HelloWorld
+
+View text file contents
+===========================
+
+more filename.txt
+
+Include 3rdparty libraries 
+===========================
+javac -classpath ./lib/* HelloWorld.java
+
+Run java program using jar with 3rd pathy libraries.
+=========================
+
+java -classpath ./lib/*;./  HelloWorld
